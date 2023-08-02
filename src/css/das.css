@@ -4,3 +4,31 @@
     justify-content: center;
     align-items: center;
 }
+
+.btn2{
+    
+}
+.btn2 {
+    margin-left: 44%;
+    color: #fff !important;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    background: #318aac;
+    border: 2px solid;
+    border-color: #318aac;
+    position: relative;
+  }
+  .btn2:before {
+    content:"";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    transition: all 1s ease;
+  }
+  .btn2:hover:before {
+  width: 100%;
+  }

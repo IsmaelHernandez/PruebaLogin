@@ -41,6 +41,7 @@ const LoginForm = ({ onLogin }) => {
   return (
     <div className="containerForm">
       <form className="form" onSubmit={handleSubmit}>
+        <h1 className="title">Login</h1>
         <div>
           <label htmlFor="username">Usuario:</label>
           <input
@@ -61,7 +62,8 @@ const LoginForm = ({ onLogin }) => {
           />
           {passwordError && <span className="error">{passwordError}</span>}
         </div>
-        <button type="submit">Iniciar sesión</button>
+        <br />
+        <button className="btn" type="submit">Iniciar sesión</button>
       </form>
     </div>
   );

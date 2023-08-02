@@ -1,8 +1,8 @@
 import Clock from "../components/Clock";
 import CardImage from "../components/CardImage";
 import axios from "axios";
-import "../css/das.css"; 
 import { useState, useEffect } from "react";
+import "../css/das.css";
 
 const Dashboard = ({ user, onLogout }) => {
   //Estado para guardar la inf del endpoint
@@ -21,12 +21,12 @@ const Dashboard = ({ user, onLogout }) => {
 
   return (
     <div>
-      <h1>Bienvenido, {user.username}!</h1>
-      <button onClick={onLogout}>Cerrar sesión</button>
+      <h1 className="title">Bienvenido, {user.username}!</h1>
       <br />
-      <hr />
+      <button className="btn2" onClick={onLogout}>Cerrar sesión</button>
       <br />
       <Clock />
+      <br />
       <hr />
 
       <h1 className="title">Lista de Imagenes Consumidas por el Endpoint</h1>
