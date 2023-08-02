@@ -1,7 +1,6 @@
 .containerForm{
     width: 100%;
     display: flex;
-    background-color: red;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
@@ -12,4 +11,6 @@
     width: 40%;
     height: 50vh;
     background-color: blueviolet;
+    border-radius: 10px;
+    border: 1px solid black;
 }
