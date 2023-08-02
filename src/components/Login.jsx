@@ -29,7 +29,7 @@ const Login = () => {
   return (
     <div>
       {loggedIn ? (
-        <Dashboard user={currentUser} onLogin={onLogin} onLogout={handleLogout} />
+        <Dashboard user={currentUser} onLogout={handleLogout} />
       ) : (
         <LoginForm onLogin={handleLogin} />
       )}
