@@ -1,0 +1,15 @@
+.containerForm{
+    width: 100%;
+    display: flex;
+    background-color: red;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    margin: 20px;
+    width: 40%;
+    height: 50vh;
+    background-color: blueviolet;
+}
