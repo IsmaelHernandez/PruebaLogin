@@ -91,3 +91,12 @@ input:focus {
   font-size: 12px;
   margin-top: 5px;
 }
+
+.h1-animated {
+  font-family: Franklin Gothic Medium,Arial Narrow,Arial,sans-serif;
+  font-size: 50px;
+  color: transparent;
+  background-image: url(https://media.giphy.com/media/7AtHoQ9XWbpwLRxs0t/giphy.gif);
+  background-position: center;
+  -webkit-background-clip: text;
+}

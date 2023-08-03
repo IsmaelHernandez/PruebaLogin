@@ -5,6 +5,7 @@ import { useState, useEffect } from "react";
 import "../css/das.css";
 import ConfettiButton from "../components/ConfettiButton";
 
+
 const Dashboard = ({ user, onLogout }) => {
   //Estado para guardar la inf del endpoint
   const [images, setImage] = useState();

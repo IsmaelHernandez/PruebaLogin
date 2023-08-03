@@ -45,7 +45,7 @@ const LoginForm = ({ onLogin }) => {
         <div>
           <img className="img-fixed-size" src="../public/img/user.jpg" alt="" />
         </div>
-        <h1 className="title">Login</h1>
+        <h1 className="title h1-animated">Login</h1>
         
         <div>
         <label htmlFor="usuario" className="">Usuario</label>

@@ -25,7 +25,7 @@ const ConfettiButton = () => {
         />
       )}
       <button className="confetti-button" onClick={handleConfetti}>
-        ¡Da click para ver la Magia jejeje!
+        ¡Da click para ver la Magia jejeje 🎉!
       </button>
     </div>
   );

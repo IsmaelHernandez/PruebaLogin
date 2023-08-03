@@ -1,0 +1,18 @@
+.rainbow-kitty-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    color: white;
+  }
+  
+  .kitty-icon {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  
