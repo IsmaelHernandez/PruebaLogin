@@ -9,14 +9,20 @@
 .containerSeccion1{
   display: flex;
   width: 100%;
-  flex-flow: column wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.itemSeccion1{
+  flex-flow: row wrap;
+  justify-content: space-evenly;
 
 }
+
+.containerSeccion2{
+  display: flex;
+  width: 100%;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  background-color: aqua;
+}
+
+
 
 .btn2 {
     margin-left: 26%;

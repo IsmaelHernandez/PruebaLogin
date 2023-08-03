@@ -4,9 +4,11 @@
   width: 100%;
   display: flex;
   flex-flow: row wrap;
-  height: 0%;
+  margin: 5px;
   gap: 5px;
   justify-content: space-evenly;
+  width: 200px;
+  height: 200px;
 }
 .card:hover{
   cursor: pointer;
