@@ -48,7 +48,7 @@ const LoginForm = ({ onLogin }) => {
         <h1 className="title">Login</h1>
         
         <div>
-          <label htmlFor="username">Usuario:</label>
+        <label htmlFor="usuario" className="">Usuario</label>
           <input
             type="text"
             id="username"

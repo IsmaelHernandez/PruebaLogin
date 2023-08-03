@@ -29,10 +29,6 @@
   transition: transform 200ms ease;
 }
 
-.error{
-    color: red;
-}
-
 .btn {
     color: #fff !important;
     font-size: 20px;
@@ -74,4 +70,24 @@
     height: 100px; /* Ajusta la altura deseada */
     object-fit: cover;
   }
-  
+
+/* Estilos para los campos de entrada (inputs) */
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+/* Resaltar el borde en azul al hacer clic */
+input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Estilos para los mensajes de error */
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
