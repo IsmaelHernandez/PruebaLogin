@@ -1,8 +1,10 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+PRUEBA TECNICA
+-Al iniciar la app se renderizara una animacion de (loading)
+-El primer renderizado es un login mediante autentitacion mediante un archivo json CREDENCIALES(usuario: usuario1 contraseña: contraseña1)
+-Con expressiones regulares se valido los inputs del formulario
+-Efectos hover en botones de login y logout
+-Al logearte te mostrara un boton de logout
+-Al logearte te mostrara un reloj con la hora actual 
+-Al logearte te mostrara una lista de cats
+-Aqui esta la url de mi app para renderizarla en netifly 
+pruebatecnicalogin.netlify.app
