@@ -1,13 +1,10 @@
-.title{
+.title1{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.btn2{
-    
-}
 .btn2 {
     margin-left: 44%;
     color: #fff !important;

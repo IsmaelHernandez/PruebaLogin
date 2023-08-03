@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "../css/loginform.css";
 
+
 const LoginForm = ({ onLogin }) => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
@@ -41,7 +42,11 @@ const LoginForm = ({ onLogin }) => {
   return (
     <div className="containerForm">
       <form className="form" onSubmit={handleSubmit}>
+        <div>
+          <img className="img-fixed-size" src="../public/img/user.jpg" alt="" />
+        </div>
         <h1 className="title">Login</h1>
+        
         <div>
           <label htmlFor="username">Usuario:</label>
           <input

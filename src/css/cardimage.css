@@ -1,26 +1,19 @@
-.containerCard {
-    width: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-  }
-  
-  .itemcard {
-    width: 150px;
-    background-color: white;
-    border-radius: 10px;
-    margin-bottom: 20px; /* Agrega un margen inferior entre los elementos */
-  }
-  
-  .itemcard:hover {
-    cursor: pointer;
-    transform: translateY(-10px) scale(1.03);
-    transition: transform 200ms ease;
-  }
-  
-  .img-fixed-size {
-    width: 100%;
-    height: 100px; /* Ajusta la altura deseada */
-    object-fit: cover;
-  }
-  
+.card {
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  height: 0%;
+  justify-content: space-evenly;
+}
+.card:hover{
+  cursor: pointer;
+  transform: translateY(-10px) scale(1.03) ;
+  transition: transform 200ms ease;
+}
+
+.img-fixed-size {
+  width: 200px;
+  height: 200px; /* Ajusta la altura deseada */
+  object-fit: cover;
+}

@@ -7,7 +7,7 @@
 }
 
 .form{
-    margin: 10%;
+    margin: 5%;
     width: 40%;
     align-content: center;
     align-items: center;
@@ -20,7 +20,7 @@
     justify-content: center;
     margin-bottom: 20px;
     overflow: hidden;
-    height: 45vh;
+    height: 60vh;
 }
 
 .form:hover{
@@ -62,8 +62,16 @@
     justify-content: center;
     align-items: center;
     font-size: 450%;
+    margin-top: -15px;
   }
 
   input{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
+
+  .img-fixed-size {
+    width: 100%;
+    height: 100px; /* Ajusta la altura deseada */
+    object-fit: cover;
+  }
+  

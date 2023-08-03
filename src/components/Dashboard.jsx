@@ -30,8 +30,7 @@ const Dashboard = ({ user, onLogout }) => {
       <Clock />
       <br />
       <hr />
-
-      <h3 className="title">Lista de Imagenes Consumidas por el Endpoint</h3>
+      <h3 className="title1">Lista de Imagenes Consumidas por el Endpoint</h3>
       {images?.map((img) => (
         <CardImage img={img} key={`${img.id}`} />
       ))}
