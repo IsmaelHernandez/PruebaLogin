@@ -9,18 +9,3 @@
   width: 100%;
   height: 100vh;
 }
-
-.content {
-  position: relative; /* Importante: para que el ParticleBackground funcione correctamente */
-  width: 100%;
-  height: 400px; /* Altura deseada del div */
-  overflow: hidden; /* Para ocultar las partículas que se salgan del div */
-}
-
-#particles-js {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}

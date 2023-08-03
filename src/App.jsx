@@ -1,16 +1,13 @@
-import './App.css'
-import Login from './components/Login'
-import Header from './components/Header'
-import Footer from './components/Footer'
-import LoadingScreen from './components/LoadingScreen'
-import { useState, useEffect } from 'react'
-
-
+import "./App.css";
+import Login from "./components/Login";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import LoadingScreen from "./components/LoadingScreen";
+import { useState, useEffect } from "react";
 
 const App = () => {
-
   //estado pantalla de carga
-  const [isLoading, setIsLoading] = useState(true)
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     // Simulamos un tiempo de carga de 2 segundos
@@ -19,22 +16,17 @@ const App = () => {
     }, 3000);
   }, []);
 
-
-  if(isLoading){
-    return <LoadingScreen />
-  }else{
+  if (isLoading) {
+    return <LoadingScreen />;
+  } else {
     return (
-      <div className='App'>
+      <div className="App">
         <Header />
         <Login />
         <Footer />
       </div>
-     
-    
-  )
+    );
   }
+};
 
- 
-}
-
-export default App
+export default App;

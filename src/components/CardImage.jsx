@@ -1,10 +1,10 @@
-import "../css/cardimage.css"; 
+import "../css/cardimage.css";
 
-const CardImage = ({img}) => {
+const CardImage = ({ img }) => {
   return (
-        <div className="card">
-         <img className="img-fixed-size" src={img.url} alt="" />
-        </div>
+    <div className="card">
+      <img className="img-fixed-size" src={img.url} alt="" />
+    </div>
   );
 };
 

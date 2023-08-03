@@ -1,12 +1,12 @@
-.title1{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
+.title1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
 }
 
-.containerSeccion1{
+.containerSeccion1 {
   display: flex;
   width: 100%;
   flex-flow: row wrap;
@@ -14,7 +14,7 @@
 
 }
 
-.containerSeccion2{
+.containerSeccion2 {
   display: flex;
   width: 100%;
   flex-flow: row wrap;
@@ -25,44 +25,46 @@
 
 
 .btn2 {
-    margin-left: 26%;
-    color: #fff !important;
-    font-size: 20px;
-    font-weight: 500;
-    padding: 0.5em 1.2em;
-    background: #318aac;
-    border: 2px solid;
-    border-color: #318aac;
-    position: relative;
-  }
-  .btn2:before {
-    content:"";
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 0px;
-    height: 100%;
-    background: rgba(255, 255, 255, 0.1);
-    transition: all 1s ease;
-  }
-  .btn2:hover:before {
+  margin-left: 26%;
+  color: #fff !important;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0.5em 1.2em;
+  background: #318aac;
+  border: 2px solid;
+  border-color: #318aac;
+  position: relative;
+}
+
+.btn2:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 0px;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  transition: all 1s ease;
+}
+
+.btn2:hover:before {
   width: 100%;
-  }
+}
 
-  .das-title-animated {
-    font-family: Franklin Gothic Medium,Arial Narrow,Arial,sans-serif;
-    font-size: 100px;
-    color: transparent;
-    background-image: url(https://media.giphy.com/media/CoBpcNr7nfBmOKJeac/giphy.gif);
-    background-position: center;
-    -webkit-background-clip: text;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.das-title-animated {
+  font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
+  font-size: 100px;
+  color: transparent;
+  background-image: url(https://media.giphy.com/media/CoBpcNr7nfBmOKJeac/giphy.gif);
+  background-position: center;
+  -webkit-background-clip: text;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .img-size {
-    width: 100%;
-    height: 100px; /* Ajusta la altura deseada */
-    object-fit: cover;
-  }
+.img-size {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+}

@@ -1,22 +1,21 @@
 import { useState } from "react";
 import "../css/loginform.css";
 
-
 const LoginForm = ({ onLogin }) => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
 
-  const [usernameError, setUsernameError] = useState('');
-  const [passwordError, setPasswordError] = useState('');
+  const [usernameError, setUsernameError] = useState("");
+  const [passwordError, setPasswordError] = useState("");
 
   const handleUsernameChange = (event) => {
     setUsername(event.target.value);
-    setUsernameError('');
+    setUsernameError("");
   };
 
   const handlePasswordChange = (event) => {
     setPassword(event.target.value);
-    setPasswordError('');
+    setPasswordError("");
   };
 
   const handleSubmit = (e) => {
@@ -29,26 +28,35 @@ const LoginForm = ({ onLogin }) => {
 
     // Validar el nombre de usuario
     if (!usernameRegex.test(username)) {
-      setUsernameError('El nombre de usuario debe tener entre 4 y 16 caracteres y solo puede contener letras, números, guiones y guiones bajos.');
+      setUsernameError(
+        "El nombre de usuario debe tener entre 4 y 16 caracteres y solo puede contener letras, números, guiones y guiones bajos."
+      );
     }
 
     // Validar la contraseña
     if (!passwordRegex.test(password)) {
-      setPasswordError('La contraseña debe tener al menos 8 caracteres, incluyendo al menos una letra minúscula, una letra mayúscula y un número.');
+      setPasswordError(
+        "La contraseña debe tener al menos 8 caracteres, incluyendo al menos una letra minúscula, una letra mayúscula y un número."
+      );
     }
-
   };
 
   return (
     <div className="containerForm">
       <form className="form" onSubmit={handleSubmit}>
         <div>
-          <img className="img-fixed-size" src="../public/img/user1.png" alt="" />
+          <img
+            className="img-fixed-size"
+            src="../public/img/user1.png"
+            alt=""
+          />
         </div>
         <h1 className="title h1-animated">Login</h1>
-        
+
         <div>
-        <label htmlFor="usuario" className="">Usuario:</label>
+          <label htmlFor="usuario" className="">
+            Usuario:
+          </label>
           <input
             type="text"
             id="username"
@@ -70,7 +78,9 @@ const LoginForm = ({ onLogin }) => {
           {passwordError && <span className="error">{passwordError}</span>}
         </div>
         <br />
-        <button className="btn" type="submit">Iniciar sesión</button>
+        <button className="btn" type="submit">
+          Iniciar sesión
+        </button>
       </form>
     </div>
   );

@@ -1,6 +1,6 @@
-import  { useState } from 'react';
-import Confetti from 'react-confetti';
-import '../css/confeti.css';
+import { useState } from "react";
+import Confetti from "react-confetti";
+import "../css/confeti.css";
 
 const ConfettiButton = () => {
   const [isConfettiActive, setConfettiActive] = useState(false);
@@ -8,7 +8,7 @@ const ConfettiButton = () => {
   const handleConfetti = () => {
     setConfettiActive(true);
 
-    // Desactivar el efecto confeti después de 2 segundos (ajusta el tiempo según lo desees)
+    // Desactivar el efecto confeti después de 5 segundos
     setTimeout(() => {
       setConfettiActive(false);
     }, 5000);
@@ -18,10 +18,10 @@ const ConfettiButton = () => {
     <div className="confetti-container">
       {isConfettiActive && (
         <Confetti
-        numberOfPieces={200}
-        width={window.innerWidth}
-        height={window.innerHeight}
-        gravity={0.3}
+          numberOfPieces={200}
+          width={window.innerWidth}
+          height={window.innerHeight}
+          gravity={0.3}
         />
       )}
       <button className="confetti-button" onClick={handleConfetti}>

@@ -1,20 +1,20 @@
-.containerFooter{
+.containerFooter {
     width: 100%;
     display: flex;
     flex-flow: row wrap;
 }
 
-.footer{
-    position:fixed;
-   left:0px;
-   bottom:0px;
-   height:50px;
-   width:100%;
+.footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 50px;
+    width: 100%;
     background-color: #2c3e50;
-    
+
 }
 
-.titleFooter{
+.titleFooter {
     display: flex;
     margin: 10px;
     justify-content: center;

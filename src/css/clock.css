@@ -22,7 +22,7 @@
   top: 50%;
   left: 50%;
   transform-origin: 50% 100%;
-  transform: translate(-50%, -100%); /* Añadimos una traslación para centrar la aguja en el reloj */
+  transform: translate(-50%, -100%);
   animation: rotateHand 60s linear infinite;
 }
 

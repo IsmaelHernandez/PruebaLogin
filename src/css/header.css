@@ -1,10 +1,10 @@
-.containerHeader{
+.containerHeader {
     width: 100%;
     display: flex;
     flex-flow: row wrap;
 }
 
-.header{
+.header {
     background-color: #34495E;
     width: 100%;
     height: 10vh;
