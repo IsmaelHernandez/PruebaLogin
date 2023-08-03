@@ -14,10 +14,15 @@
 
 }
 
+
 .titleFooter {
+    font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
+    font-size: 38px;
+    color: transparent;
+    background-image: url(https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif);
+    background-position: center;
+    -webkit-background-clip: text;
     display: flex;
-    margin: 10px;
     justify-content: center;
     align-items: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+  }
