@@ -47,7 +47,7 @@ const LoginForm = ({ onLogin }) => {
         <div>
           <img
             className="img-fixed-size"
-            src="../public/img/user1.png"
+            src="./src/assets/img/user1.png"
             alt=""
           />
         </div>
