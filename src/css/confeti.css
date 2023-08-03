@@ -1,0 +1,18 @@
+/* Estilos para el botón de confeti */
+.confetti-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .confetti-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+  }
+  

@@ -3,10 +3,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 10px;
+}
+
+.containerSeccion1{
+  display: flex;
+  width: 100%;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.itemSeccion1{
+
 }
 
 .btn2 {
-    margin-left: 44%;
+    margin-left: 26%;
     color: #fff !important;
     font-size: 20px;
     font-weight: 500;

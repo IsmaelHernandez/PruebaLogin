@@ -3,6 +3,7 @@ import CardImage from "../components/CardImage";
 import axios from "axios";
 import { useState, useEffect } from "react";
 import "../css/das.css";
+import ConfettiButton from "../components/ConfettiButton";
 
 const Dashboard = ({ user, onLogout }) => {
   //Estado para guardar la inf del endpoint
@@ -20,22 +21,33 @@ const Dashboard = ({ user, onLogout }) => {
   // console.log(image);
 
   return (
-    <div>
-      <h1 className="title">Bienvenido, {user.username}!</h1>
-      <br />
-      <button className="btn2" onClick={onLogout}>Cerrar sesión</button>
-      <hr />
-      <br />
-      <br />
-      <Clock />
-      <br />
-      <hr />
-      <h3 className="title1">Lista de Imagenes Consumidas por el Endpoint</h3>
-      {images?.map((img) => (
-        <CardImage img={img} key={`${img.id}`} />
-      ))}
-     
-    </div>
+    <>
+      <div className="">
+        <div className="containerSeccion1">
+          <div className="itemSeccion1">
+            <h1 className="title1">Bienvenido, {user.username}!</h1>
+            <ConfettiButton />
+            <button className="btn2" onClick={onLogout}>
+              Cerrar sesión
+            </button>
+          </div>
+        </div>
+        <div className="containerSeccion2">
+          <div className="itemSeccion2">
+            
+          </div>
+        </div>
+        <br />
+        <br />
+        <Clock />
+        <br />
+        <hr />
+        <h3 className="title1">Lista de Imagenes Consumidas por el Endpoint</h3>
+        {images?.map((img) => (
+          <CardImage img={img} key={`${img.id}`} />
+        ))}
+      </div>
+    </>
   );
 };
 
