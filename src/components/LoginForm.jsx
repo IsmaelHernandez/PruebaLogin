@@ -43,7 +43,7 @@ const LoginForm = ({ onLogin }) => {
     <div className="containerForm">
       <form className="form" onSubmit={handleSubmit}>
         <div>
-          <img className="img-fixed-size" src="../public/img/user.jpg" alt="" />
+          <img className="img-fixed-size" src="../public/img/user1.png" alt="" />
         </div>
         <h1 className="title h1-animated">Login</h1>
         
