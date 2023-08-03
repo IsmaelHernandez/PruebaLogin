@@ -26,9 +26,10 @@ const Clock = () => {
 
   return (
     <div className="clock-container">
-      <div className="clock-hand">
-        <h2 className="clock-text">Hora actual:</h2>
-        <p className="clock-text">{formatTime(time)}</p>
+        <div className="clock-hand">
+          <h2 className="clock-text">Hora actual:</h2>
+          <p className="clock-text">{formatTime(time)}</p>
+        
       </div>
     </div>
     

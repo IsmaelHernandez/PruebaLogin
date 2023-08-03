@@ -24,12 +24,14 @@ const Dashboard = ({ user, onLogout }) => {
       <h1 className="title">Bienvenido, {user.username}!</h1>
       <br />
       <button className="btn2" onClick={onLogout}>Cerrar sesión</button>
+      <hr />
+      <br />
       <br />
       <Clock />
       <br />
       <hr />
 
-      <h1 className="title">Lista de Imagenes Consumidas por el Endpoint</h1>
+      <h3 className="title">Lista de Imagenes Consumidas por el Endpoint</h3>
       {images?.map((img) => (
         <CardImage img={img} key={`${img.id}`} />
       ))}
