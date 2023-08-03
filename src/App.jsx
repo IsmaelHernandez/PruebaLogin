@@ -13,7 +13,7 @@ const App = () => {
     // Simulamos un tiempo de carga de 2 segundos
     setTimeout(() => {
       setIsLoading(false);
-    }, 3000);
+    }, 4000);
   }, []);
 
   if (isLoading) {
