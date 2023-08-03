@@ -90,6 +90,7 @@ input:focus {
   color: red;
   font-size: 12px;
   margin-top: 5px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .h1-animated {
@@ -99,4 +100,8 @@ input:focus {
   background-image: url(https://media.giphy.com/media/7AtHoQ9XWbpwLRxs0t/giphy.gif);
   background-position: center;
   -webkit-background-clip: text;
+}
+
+label{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }

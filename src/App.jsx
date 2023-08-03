@@ -6,6 +6,7 @@ import LoadingScreen from './components/LoadingScreen'
 import { useState, useEffect } from 'react'
 
 
+
 const App = () => {
 
   //estado pantalla de carga

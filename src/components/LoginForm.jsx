@@ -48,13 +48,14 @@ const LoginForm = ({ onLogin }) => {
         <h1 className="title h1-animated">Login</h1>
         
         <div>
-        <label htmlFor="usuario" className="">Usuario</label>
+        <label htmlFor="usuario" className="">Usuario:</label>
           <input
             type="text"
             id="username"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
           />
+          <br />
           {usernameError && <span className="error">{usernameError}</span>}
         </div>
         <div>
@@ -65,6 +66,7 @@ const LoginForm = ({ onLogin }) => {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
+          <br />
           {passwordError && <span className="error">{passwordError}</span>}
         </div>
         <br />

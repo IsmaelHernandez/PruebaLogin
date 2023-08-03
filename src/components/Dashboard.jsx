@@ -26,6 +26,7 @@ const Dashboard = ({ user, onLogout }) => {
         <div className="containerSeccion1">
           <div className="itemSeccion1">
             <h1 className="title1">Bienvenido, {user.username}!</h1>
+            <img className="img-size" src="https://media.giphy.com/media/7NoNw4pMNTvgc/giphy.gif" alt="" />
             <ConfettiButton />
             <button className="btn2" onClick={onLogout}>
               Cerrar sesión
@@ -37,7 +38,7 @@ const Dashboard = ({ user, onLogout }) => {
           <Clock />
         </div>
         <br />
-        <h3 className="title1">Lista de Imagenes Consumidas por el Endpoint</h3>
+        <h3 className="das-title-animated">Lista de Cats jsjs</h3>
         <div className="containerSeccion2">
           {images?.map((img) => (
             <CardImage img={img} key={`${img.id}`} />
